@@ -1,0 +1,14 @@
+run_key,subject,run_name,class_noun,n_images,with_prior,train_text_encoder,DINO,CLIP_I,CLIP_T,PRES,DIV,timestamp
+dog_main,dog,main,dog,5,True,False,0.6635,0.8046,0.31,0.236,0.6624,2026-05-04T04:18:52
+dog_no_prior,dog,no_prior,dog,5,False,False,0.7873,0.8409,0.2962,0.8739,0.6037,2026-05-04T04:23:39
+bear_plushie_main,bear_plushie,main,stuffed animal,5,True,False,0.6412,0.7158,0.3455,0.3743,0.6285,2026-05-04T04:30:01
+bear_plushie_no_prior,bear_plushie,no_prior,stuffed animal,5,False,False,0.7488,0.7775,0.315,0.7984,0.5123,2026-05-04T04:34:50
+colorful_sneaker_main,colorful_sneaker,main,sneaker,5,True,False,0.6827,0.7512,0.3218,0.607,0.648,2026-05-04T04:41:12
+colorful_sneaker_no_prior,colorful_sneaker,no_prior,sneaker,5,False,False,0.7886,0.8146,0.2861,0.8089,0.5193,2026-05-04T04:46:01
+teapot_main,teapot,main,teapot,5,True,False,0.444,0.7837,0.3645,0.4496,0.718,2026-05-04T04:52:21
+teapot_no_prior,teapot,no_prior,teapot,5,False,False,0.4795,0.7975,0.3419,0.5582,0.6744,2026-05-04T04:57:09
+dog_n3,dog,n3,dog,3,True,False,0.7607,0.8369,0.3011,0.2626,0.6323,2026-05-04T05:03:25
+dog_n4,dog,n4,dog,4,True,False,0.6523,0.81,0.3081,0.1876,0.6596,2026-05-04T05:09:40
+dog_te_unfrozen,dog,te_unfrozen,dog,5,True,True,0.8454,0.8694,0.2697,0.2821,0.6342,2026-05-04T05:16:09
+mixing_appendix/shared_sks_shared_sks,mixing_appendix/shared_sks,shared_sks,dog,11,True,False,0.3009,0.7042,0.314,0.1723,0.6647,2026-05-04T05:22:36
+mixing_appendix/distinct_tokens_distinct_tokens,mixing_appendix/distinct_tokens,distinct_tokens,dog,11,True,False,0.2686,0.699,0.3212,0.1783,0.6634,2026-05-04T05:30:11

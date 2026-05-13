@@ -1,0 +1,9 @@
+run_key,subject,run_name,class_noun,n_images,with_prior,train_text_encoder,DINO,CLIP_I,CLIP_T,PRES,DIV,timestamp
+backpack_main,backpack,main,backpack,6,True,False,0.4853,0.7906,0.3156,0.3472,0.6322,2026-05-05T04:43:33
+backpack_no_prior,backpack,no_prior,backpack,6,False,False,0.5427,0.8191,0.2968,0.5526,0.6534,2026-05-05T04:47:46
+dog3_main,dog3,main,dog,6,True,False,0.2821,0.677,0.3054,0.1266,0.6596,2026-05-05T04:53:03
+dog3_no_prior,dog3,no_prior,dog,6,False,False,0.5347,0.7393,0.2888,0.6295,0.6297,2026-05-05T04:57:15
+cat_main,cat,main,cat,5,True,False,0.7673,0.8705,0.2831,0.4264,0.608,2026-05-05T05:02:21
+cat_no_prior,cat,no_prior,cat,5,False,False,0.8543,0.886,0.2761,0.8471,0.525,2026-05-05T05:06:34
+killian_main,killian,main,man,7,True,False,0.3421,0.6138,0.3072,0.4225,0.5787,2026-05-05T05:12:29
+killian_no_prior,killian,no_prior,man,7,False,False,0.5514,0.7372,0.2741,0.7621,0.5196,2026-05-05T05:17:15

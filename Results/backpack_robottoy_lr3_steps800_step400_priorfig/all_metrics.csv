@@ -1,0 +1,5 @@
+run_key,subject,run_name,class_noun,n_images,with_prior,train_text_encoder,DINO,CLIP_I,CLIP_T,PRES,DIV,timestamp
+backpack_main,backpack,main,backpack,6,True,False,0.471,0.8011,0.3151,0.3374,0.6489,2026-05-05T02:33:08
+backpack_no_prior,backpack,no_prior,backpack,6,False,False,0.5404,0.8249,0.299,0.5536,0.6469,2026-05-05T02:37:52
+robot_toy_main,robot_toy,main,toy,5,True,False,0.5094,0.7273,0.2652,0.2492,0.6259,2026-05-05T02:43:30
+robot_toy_no_prior,robot_toy,no_prior,toy,5,False,False,0.6065,0.772,0.2349,0.6535,0.5694,2026-05-05T02:48:14

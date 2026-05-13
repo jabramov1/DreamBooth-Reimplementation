@@ -1,0 +1,73 @@
+DreamBooth final run metadata
+================================
+run_key: mixing_appendix/shared_sks_shared_sks
+subject: mixing_appendix/shared_sks
+run_name: shared_sks
+class_noun: dog
+n_images: all_available
+reference_image_count: 11
+with_prior: True
+train_text_encoder: False
+learning_rate: 3e-06
+instance_sources: [('/content/drive/MyDrive/FinalProjectDL/dreambooth_dataset/dataset/dog', 'a photo of a sks dog'), ('/content/drive/MyDrive/FinalProjectDL/dreambooth_dataset/dataset/dog3', 'a photo of a sks dog')]
+started: 2026-05-04T05:16:17
+
+Full config snapshot:
+{
+  "base_path": "/content/drive/MyDrive/FinalProjectDL",
+  "output_path": "/content/drive/MyDrive/FinalProjectDL/final_run",
+  "dataset_root": "/content/drive/MyDrive/FinalProjectDL/dreambooth_dataset/dataset",
+  "class_images_dirname": "class_images_final",
+  "pretrained_model": "runwayml/stable-diffusion-v1-5",
+  "identifier": "sks",
+  "seed": 42,
+  "subjects": [
+    {
+      "name": "dog",
+      "class_noun": "dog",
+      "is_living": true
+    },
+    {
+      "name": "bear_plushie",
+      "class_noun": "stuffed animal",
+      "is_living": false
+    },
+    {
+      "name": "colorful_sneaker",
+      "class_noun": "sneaker",
+      "is_living": false
+    },
+    {
+      "name": "teapot",
+      "class_noun": "teapot",
+      "is_living": false
+    }
+  ],
+  "headline_subject": "dog",
+  "instance_prompt_template": "a photo of a {identifier} {class_noun}",
+  "class_prompt_template": "a photo of a {class_noun}",
+  "num_class_images": 200,
+  "class_gen_steps": 50,
+  "class_gen_batch": 2,
+  "resolution": 512,
+  "train_batch_size": 1,
+  "max_train_steps": 800,
+  "lr_unet": 3e-06,
+  "lr_te": 2e-06,
+  "lambda_prior": 1.0,
+  "max_grad_norm": 1.0,
+  "sample_steps": 50,
+  "guidance_scale": 7.5,
+  "images_per_prompt": 4,
+  "clip_model_name": "openai/clip-vit-base-patch32",
+  "dino_repo": "facebookresearch/dino:main",
+  "dino_model": "dino_vits16",
+  "RUN_MIXING_APPENDIX": true,
+  "RUN_MIXING_VARIANT_2": true,
+  "RUN_MIXING_VARIANT_3": true,
+  "mixing_dogs": [
+    "dog",
+    "dog3"
+  ],
+  "RUN_FINAL_UNASSIGN": true
+}

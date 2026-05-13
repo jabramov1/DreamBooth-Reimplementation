@@ -1,0 +1,7 @@
+run_key,subject,run_name,class_noun,n_images,with_prior,train_text_encoder,DINO,CLIP_I,CLIP_T,PRES,DIV,timestamp
+dog2_main,dog2,main,dog,6,True,False,0.4716,0.7587,0.326,0.048,0.6839,2026-05-04T21:34:33
+dog2_no_prior,dog2,no_prior,dog,6,False,False,0.7653,0.8181,0.2934,0.8486,0.6111,2026-05-04T21:41:19
+cat2_main,cat2,main,cat,5,True,False,0.6966,0.8113,0.3001,0.4302,0.695,2026-05-04T21:49:34
+cat2_no_prior,cat2,no_prior,cat,5,False,False,0.7657,0.8323,0.2941,0.8243,0.6515,2026-05-04T21:56:19
+clock_main,clock,main,clock,6,True,False,0.4371,0.7765,0.3005,0.3621,0.6945,2026-05-04T22:04:36
+clock_no_prior,clock,no_prior,clock,6,False,False,0.5031,0.8079,0.2881,0.5273,0.6937,2026-05-04T22:11:22
